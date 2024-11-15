@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>spell_check - benjamin small</title>
+
+    <link rel="stylesheet" href="spell_check.css">
     <script src="spell_check.js"></script>
   </head>
   <body>
@@ -15,6 +17,16 @@
 
         <button onclick="spell_check()">Submit</button>
       </form>
+
+      <div>
+        <ul id="suggestion" class="suggestion-list">
+          <li>word1</li>
+          <li>word2</li>
+          <li>word3</li>
+        </ul>
+      </div>
+
+      <button onclick="spell_check()">Submit</button>
     </div>
   </body>
 </html>
