@@ -1,6 +1,3 @@
-
-
-
 function spell_check() {
   //const word = document.getElementById("word").value;
   //document.getElementsByID("sug").classList.toggle("show");
