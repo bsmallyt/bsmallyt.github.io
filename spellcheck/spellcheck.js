@@ -1,4 +1,4 @@
-const url = "http://localhost:8090"
+const url = "https://api.itsbensmall.com"
 
 function spell_check() {
   //show the list of word suggestions (if not showing)
@@ -20,10 +20,6 @@ function spell_check() {
   while (list.firstChild) {
     list.removeChild(list.firstChild);
   }
-
-  const newItem = document.createElement('li');
-  newItem.textContent = apiUrl;
-  list.appendChild(newItem);
 
   fetch(apiUrl)
     .then(response => {
