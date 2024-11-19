@@ -40,8 +40,4 @@ function spell_check() {
       });
     })
     .catch(error => { console.error('Error:', error)});
-
-  
-  
-
 }
