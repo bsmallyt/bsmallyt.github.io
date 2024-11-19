@@ -34,6 +34,7 @@ function spell_check() {
         listItem.textContent = word;
         list.appendChild(listItem);
       });
+      console.log(data)
     })
     .catch(error => { console.error('Error:', error)});
 }
