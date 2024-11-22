@@ -11,14 +11,15 @@
       Welcome to the spell checker.
     </p>
     <div>
-      <form>
+      <form id="check_form">
         <label for="word">Check Word:</label>
         <input type="text" id="word">
 
-        <button type="button" onclick="spell_check()">Submit</button>
+        <button type="button" onclick="spell_check()">Check</button>
       </form>
 
       <div>
+        <p>Suggestions:</p>
         <ul id="suggestion" class="suggestion-list">
           <li>dummy word</li>
         </ul>
